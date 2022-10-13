@@ -2,11 +2,36 @@
 
 <!--
 
-**Here are some ideas to get you started:**
-
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+필수 요소
+[공통] - 팀명 - R&R
+[디자인]
+- 서비스 로고
+- 디자인 무드보드
+[기획]
+- 서비스명
+- 서비스 소개 (Head Copy, Sub copy) - 목적 및 필요성
+- User Research 및 시장 조사 내용
+- 서비스 타겟층 분석
+- 핵심 기능 정의
+- Business Model 설계
+[개발]
+- 기술 스택 선정이유
+  
+- 그라운드 룰, 커밋 컨벤션 - 소프트웨어 아키텍처
+- 주요 기능 명세서
+● 기능 사항 ID (넘버링 or 인덱싱)
+● 기능/비기능 타입 분류 ● 우선순위등
+선택 요소
+[디자인]
+- 프로젝트 대표 이미지 - Splash 화면
+- 디자인 시스템 구조
+- UX/UI 룰
+[기획]
+- 유저 journey map
+- 페르소나 정의
+- 스토리보드
+- 타겟 그룹 별 시나리오̤̫
+[개발]
+- 디자인 패턴
+- 외부 모듈 통신 방법
 -->
