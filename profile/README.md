@@ -106,15 +106,10 @@
 <img src="https://img.shields.io/badge/Java-3776AB?style=for-the-badge&logo=Java&logoColor=white"> <img src="https://img.shields.io/badge/Android Studio-3DDC84?style=for-the-badge&logo=Android Studio&logoColor=white"> <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=Figma&logoColor=white"> 
 <img src="https://img.shields.io/badge/springboot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white"> <img src="https://img.shields.io/badge/mysql-4479A1?style=for-the-badge&logo=mysql&logoColor=white"> <img src="https://img.shields.io/badge/Spring Security-6DB33F?style=for-the-badge&logo=Spring Security&logoColor=white"> <img src="https://img.shields.io/badge/Aws-2496ED?style=for-the-badge&logo=Aws&logoColor=white">
 #### 기술 스택 선정 이유
-  - Use Case를 고려했을 때, 우리 서비스를 이용하는 고객은 실제 사용자(User1)와 기업(User2) 입니다. 
-  - User1은 Android 기기를 사용하며, User2는 웹 페이지를 통해 User1과의 컨택이 이루어집니다.
-  - Android와 Server와의 통신을 위해 OKHttp를 기반으로 만들어진 Retrofit 라이브러리를 사용했습니다.
-  - OKHttp 역시 서버와 HTTP 통신을 위한 클라이언트 라이브러리인데, 여기에 Type-safe하고 더 직관적으로 사용할 수 있도록 만든 인터페이스인 Retrofit을 사용했습니다.
-
+  - Use Case를 고려했을 때, 우리 서비스를 이용하는 고객은 결식아동과 기부자입니다. 
+  - 결식아동과 기부자는 Android 기기를 사용하며, 앱 페이지를 통해 제휴가 맺어진 가게에서 기부를 받고, 기부를 할 수 있습니다.
+  - Android와 Server와의 통신을 위해 Spring Boot 프레임워크와 유저의 로그인 정보를 더 안전하게 관리할 수 있는 Spring Security 프레임워크를 사용했습니다.
   - 데이터베이스는 기업과 유저의 정보를 안전하게 관리할 수 있는 RDBMS인 MySQL을 사용했습니다.
-  - 1:1 채팅 기능의 경우, 상대방과의 Communication은 보안이 유지된 상태에서 진행되어야 합니다. 이에 Spring Security를 통해 토큰 검증으로 유저를 식별할 수 있게 설계했습니다.
-  - Front-end 개발 시, 서버와의 원활하고 쉬운 테스트를 위해 Docker로 환경 셋팅을 진행했습니다.
-
   - 디자인 툴로 Figma를 사용하여 개발-디자인 팀 간 Cross-functioning이 가능했습니다.
 
 ### 📑 소프트웨어 아키텍처
