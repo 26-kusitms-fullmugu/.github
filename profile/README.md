@@ -100,8 +100,8 @@
 
 
 ### 📑 디자인 무드보드
-<img width="917" alt="image" src="https://user-images.githubusercontent.com/62995958/194387898-7f98742c-4f4a-4e0d-9e75-3518e237134c.png">
-![나누밀세미밋업](https://user-images.githubusercontent.com/115634248/195850228-fd41eed8-3faa-4154-946c-dd91ee50a1ff.png)
+<img width="917" alt="image" src="https://user-images.githubusercontent.com/115634248/195850228-fd41eed8-3faa-4154-946c-dd91ee50a1ff.png">
+
 
 
 ### 📑 기술 스택
