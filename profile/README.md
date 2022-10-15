@@ -3,7 +3,7 @@
 
 ### 결식아동에게 소중한 한끼를 제공하고,
 ### 직관적인 기부금 활용처 확인으로 기부 문화 활성화까지!
-
+<img width="917" alt="image" src="https://user-images.githubusercontent.com/115634248/195972146-95745765-cef8-4d79-a1b7-d97099518762.png">
 # _✨Nanumeal, 나누밀✨_
 
 ### 나눔이 배부를 때까지
