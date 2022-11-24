@@ -342,12 +342,12 @@ cf) 출처 : 강득구 더불어민주당 의원실 자료
 
 ![README_Architecture](https://user-images.githubusercontent.com/77184523/194487013-63c90418-c845-4b01-ace0-a5a75e95ff34.png)
 
+### 📑 APK 경로 및 파일 
 
-
-
-
-
-
+|APK|설명|
+|:---:|:-----------:|
+|경로|app\build\outputs\apk\debug\app-debug.apk|
+|파일||
 
 
 
