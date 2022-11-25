@@ -347,13 +347,23 @@ cf) 출처 : 강득구 더불어민주당 의원실 자료
 |정보 페이지|착한식당 공유|
 |찜 리스트|내가 찜한 식당 리스트|
 
-### 📑 소프트웨어 아키텍처
-
+### 📑 시스템 아키텍처
 ![System Architecture](https://user-images.githubusercontent.com/86938974/203930665-992347d9-dbef-4c65-a186-89a38a7f6e46.png)
-Spring Boot의 하위 프레임워크인 Spring Security, Spring Data JPA를 사용하여 서버를 구성하였습니다. Spring Security에서 제공하는 Filter Chain에 JWT를 사용하는 Custom Filter를 추가하여 로그인 기능을 구현하였습니다. 이 때 소셜 로그인을 구현하기 위해 Kakao API를 사용했고, 폼 로그인을 구현하기 위해 이메일 전송 라이브러리를 사용했습니다. 클라이언트에서 요청하는 CRUD 연산을 수행하기 위해 MySQL을 사용하였고, 객체와 RDBMS를 쉽게 맵핑하고자 JPA, Hibernate, Spring Data JPA를 사용했습니다.
+- `Springboot(Java)`를 이용한 API 서버를 개발하였고, JPA(ORM)과 `MySQL`을 이용한 CRUD 구현하였습니다.<br>
+- 유저의 로그인 정보를 더 안전하게 관리할 수 있는 `Spring Security` 프레임워크를 사용했습니다.<br>
+- 정보에 인증이 되어 있고 믿을 수 있는 `JWT`를 사용했습니다.<br>
+- 이 때 소셜 로그인을 구현하기 위해 Kakao API를 사용했고, 폼 로그인을 구현하기 위해 이메일 전송 라이브러리를 사용했습니다.<br>
+- 객체와 RDBMS를 쉽게 맵핑하고자 JPA, Hibernate, Spring Data JPA를 사용했습니다.<br>
+- `AWS EC2`를 이용해 서버를 배포하였고, `AWS RDS`를 이용해 DB 서버를 구성하였습니다.<br>
+- `AWS S3`를 이용해 이미지 데이터를 관리하였습니다.<br>
+- `Springboot`로 구축한 API 서버와 `Android`를 연결하고 무중단 배포하기 위해서 Nginx를 사용했습니다. <br>
+- API문서 자동화를 통해 테스트를 쉽고 편하게 하기 위해 `Swagger`를 사용했습니다. <br>
+- 협업 및 코드 버전 관리를 위해 `Github`을 이용하였으며 <br>
+- 자동 배포를 위해 `Github actions`를 이용하였습니다. <br>
 
 ### 📑 서버 모니터링
 ![Server Monitoring](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/f9c12fd8-ad05-485d-91ee-46f09570e2e7/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221125%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221125T085051Z&X-Amz-Expires=86400&X-Amz-Signature=157da2616b988b6c2fd11516504290b1d38ffb29b4cbc83630f08905497743eb&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22Untitled.png%22&x-id=GetObject)
+- `Prometheus`를 이용해 서버의 데이터 로그를 수집하고, `Grafana`를 이용해 데이터를 시각화하였습니다. <br>
 
 ### 📑 CI / CD 과정
 ![CICD_Architecture](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/fa34f9ef-4154-40ae-8112-ca1807620b81/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221125%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221125T075043Z&X-Amz-Expires=86400&X-Amz-Signature=da92d705bc24f39fb332bbe77d0b25ffdb7eb1ac438296d6a1707058302c7f81&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22Untitled.png%22&x-id=GetObject)
