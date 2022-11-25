@@ -236,22 +236,6 @@ cf) 출처 : 강득구 더불어민주당 의원실 자료
 #### Design
 <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=Figma&logoColor=white"> 
 
-#### 기술 스택 선정 이유
-  - Use Case를 고려했을 때, 나누밀 서비스를 이용하는 고객은 결식아동 및 기부자입니다. 
-  - 결식아동과 기부자는 Android 기기를 사용하며, 앱 페이지를 통해 제휴가 맺어진 가게에서 기부를 받고, 기부를 할 수 있습니다.
-  - Android와 Server와의 통신을 위해 Spring Boot 프레임워크와 유저의 로그인 정보를 더 안전하게 관리할 수 있는 Spring Security 프레임워크를 사용했습니다.
-  - 데이터베이스는 기업과 유저의 정보를 안전하게 관리할 수 있는 RDBMS인 MySQL을 사용했습니다.
-  - 디자인 툴로 Figma를 사용하여 개발-디자인 팀 간 Cross-functioning이 가능했습니다.
-  - `Springboot(Java)`를 이용한 API 서버를 개발하였고, JPA(ORM)과 `MySQL`을 이용한 CRUD 구현하였습니다.<br>
-  - 정보에 인증이 되어 있고 믿을 수 있는 `JWT`를 사용했습니다.<br>
-  - `AWS EC2`를 이용해 서버를 배포하였고, `AWS RDS`를 이용해 DB 서버를 구성하였습니다.<br>
-  - `AWS S3`를 이용해 이미지 데이터를 관리하였습니다.<br>
-  - `Prometheus`를 이용해 서버의 데이터 로그를 수집하고, `Grafana`를 이용해 데이터를 시각화하였습니다. <br>
-  - `Springboot`로 구축한 API 서버와 `Android`를 연결하고 배포하기 위해서 Nginx를 사용해보았습니다. <br>
-  - API문서 자동화를 통해 테스트를 쉽고 편하게 하기 위해 `Swagger`를 사용했습니다. <br>
-  - 협업 및 코드 버전 관리를 위해 `github`을 이용하였으며 <br>
-  - 자동 배포를 위해 `github actions`를 이용하였습니다. <br>
-
 ### 📑 그라운드 룰, 커밋 컨벤션
 
 |방식|설명|
